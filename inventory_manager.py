@@ -3,7 +3,6 @@ ASSIGNMENT 9B: SPRINT 2 - FUNCTIONAL STUBS
 Project: Precision PC Builder System
 Developer: Predrag Komljenovic
 """
-
 PARTS_FILE = "Mid-Project/parts.txt"
 BUILD_HISTORY_FILE = "Mid-Project/build_history.txt"
 
