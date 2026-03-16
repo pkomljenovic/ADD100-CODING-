@@ -1,0 +1,10 @@
+
+-----------------------------
+Customer: Predrag Komljenovic
+Purpose: Gaming
+CPU: Ryzen 5 7600
+GPU: RTX 4060
+RAM: 16GB DDR5
+Storage: 1TB SSD
+Case: Mid Tower
+Total: $799.00
