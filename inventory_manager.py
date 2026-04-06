@@ -3,6 +3,7 @@ ASSIGNMENT 9B: SPRINT 2 - FUNCTIONAL STUBS
 Project: Precision PC Builder System
 Developer: Predrag Komljenovic
 """
+import datetime
 PARTS_FILE = "Mid-Project/parts.txt"
 BUILD_HISTORY_FILE = "Mid-Project/build_history.txt"
 
@@ -103,9 +104,12 @@ def save_build(build_record):
     """Save build information to build_history.txt"""
 
     try:
+        current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
         with open(BUILD_HISTORY_FILE, "a") as file:
 
-            file.write("\n-----------------------------\n")
+            file.write(f"\n[{current_time}]\n")  # NEW LINE
+            file.write("-----------------------------\n")
             file.write(f"Customer: {build_record['customer']}\n")
             file.write(f"Purpose: {build_record['purpose']}\n")
             file.write(f"CPU: {build_record['cpu']}\n")
