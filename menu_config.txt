@@ -1,0 +1,4 @@
+COFFEE;Latte, Cappuccino, Espresso, Americano
+MILK;Whole, Almond, Oat, Soy
+FLAVORS;Vanilla, Caramel, Hazelnut
+SHOTS;Single, Double, Triple
